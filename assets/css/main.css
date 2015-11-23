@@ -1,0 +1,250 @@
+[class*='btn-'] {
+	background-color: #1ed760;
+	border: none;
+	color: #FFF;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	font-size: 1.8rem;
+	font-weight: 700;
+	border-radius: 40px;
+	width: 268px;
+	height: 60px;
+}
+
+.btn-header {
+	background-image: linear-gradient(to right, hsl(198, 100%, 17%) 0%, hsl(141, 76%, 48%) 100%);
+}
+
+.video {
+	position: relative;
+	border: 2px solid #1ed760;
+	background-color: hsla(0, 0%, 0%, 0.4);
+	top: 50%;
+}
+
+.btn-video:hover  {
+	background-color: #1ed760;
+}
+
+.menu {
+	background-color: #58CC77;
+	position: absolute;
+	text-align: center;
+	padding-top: 20px;
+	margin-left: -70px;
+	margin-right: auto;
+	width: 1600px;
+	color: #fff;
+}
+
+.menu-item {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+
+.header {
+	background-image: url(../../images/header.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 350px;
+	height: 680px;
+	padding-bottom: 120px;
+}
+
+.header-subtitle {
+	color: #FFF;
+	padding-right: 300px;
+}
+
+.theft {
+	background-color: #58CC77;
+	padding-top: 40px;
+}
+
+.theft p {
+	color: #FFF;
+}
+
+.theft-title {
+	color: #FFF;
+}
+
+.theft-video {
+	position: relative;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: 100% auto;
+	height: 345px;
+}
+
+.weas{
+
+	text-align: center;
+}
+.weas p{
+	
+	color: #FFF;
+
+}
+.bueno{
+	background-color: #779ECB;
+}
+.malo{
+	background-color: #C23B22;
+}
+.weas-1{
+	height: 700px;
+}
+.weas-m2{
+	background-image: url(../../images/estres1.jpg);
+	background-color: #E31EBB;
+	height: 350px;
+}
+.weas-m3{
+	background-image: url(../../images/estres2.jpeg);
+	background-color: #D0F53B;
+	height: 350px;
+}
+
+.weas-m4{
+	background-image: url(../../images/estres3.jpeg);
+	background-color: #24B31D;
+	height: 350px;
+}
+.weas-m5{
+	background-image: url(../../images/estres4.jpg);
+	background-color: #B3421D;
+	height: 350px;
+}
+
+.weas-b2{
+	background-image: url(../../images/estresb1.jpeg);
+	background-color: #E31EBB;
+	height: 350px;
+}
+.weas-b3{
+	background-image: url(../../images/estresb2.jpeg);
+	background-color: #D0F53B;
+	height: 350px;
+}
+
+.weas-b4{
+	background-image: url(../../images/estresb3.jpeg);
+	background-color: #24B31D;
+	height: 350px;
+}
+.weas-b5{
+	background-image: url(../../images/estresb4.jpg);
+	background-color: #B3421D;
+	height: 350px;
+}
+.tamano{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;	
+	padding-top: 175px;
+	padding-bottom: 120px;
+}
+.specs{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #f1f1f1;
+}
+
+.specs-title{
+	color: #879392;
+}
+.specs-sisop {
+	text-align: center;
+}
+.specs-sisop-icon{
+	padding-right: 30px;
+	padding-left: 30px;
+}
+.specs-p{
+	color: #879392;
+	text-align: center;
+}
+.specs-list-item{
+	color: #008ec8;specs-
+}
+
+.testimony{
+	background-color: #58CC77;
+	color: #FFF;	
+	position: relative;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	}
+.flecha-izq{
+	padding-top: 10%;
+
+}
+
+.divflecha-der{
+
+	padding-top: 10%;
+}
+.flecha-der{ 
+	position: relative;
+	top: -11px;
+	transform: rotate(180deg);
+	
+	
+}
+.user-img{
+	border: 2px solid grey;
+	border-radius: 300px;
+	width: 170px; height: 150px; 
+	
+}
+.user-info{
+
+}
+.testimony-quote{
+}
+
+
+.education{
+	position: relative;
+	left: -44px;
+	background-color: #779ECB;
+	width: 107.3%;
+
+}
+.education-list{
+	margin: 40px;
+	text-align: left;
+
+}
+.btn-education{
+	position: relative;
+	top: 30px;
+	left: -200px;
+	background-color: #3482ab;
+}
+
+.footer{
+	background-color: #58CC77;
+	color:#fff;
+	text-align: center;
+}
+.footer-imagen{
+	padding-top: 4%;
+	padding-bottom: 4%;
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+	filter: gray;
+	-webkit-filter: grayscale(100%);
+}
+.footer-imagen:hover{
+	filter: none;
+    -webkit-filter: grayscale(0%);
+}
+.footer-menu-item{
+	padding-left: 10px;
+}
